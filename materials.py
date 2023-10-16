@@ -1,9 +1,9 @@
-import pygame
+import random
 
 class CellMaterial:
-    def __init__(self, name, color):
+    def __init__(self, name, base_color):
         self.name = name  # Название материала
-        self.color = color  # Цвет материала
+        self.base_color = base_color  # Базовый цвет материала
 
 materials = {
     "Water": CellMaterial("Water", (0, 165, 252)),
